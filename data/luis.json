@@ -2,7 +2,7 @@
   "name": "Luis Hernán González",
   "role": "Masajista Funcional",
   "tagline": "Regulación corporal para quienes no pueden dejar de pensar.",
-  "hero_subtitle": "Trabajo con el cuerpo para interrumpir el ciclo del estrés crónico. Sin rituales. Sin promesas vacías. Solo trabajo manual preciso.",
+  "hero_subtitle": "Trabajo con el cuerpo para interrumpir el ciclo del estrés crónico. Solo trabajo manual preciso.",
   "experience": 9,
   "sessions": 100,
   "focus": "Funcional",
@@ -20,7 +20,7 @@
       "title": "Estrés acumulado",
       "heading": "El estrés no vive en tu mente. Vive en tu tejido.",
       "body": "La tensión crónica se instala en capas profundas del cuerpo antes de que la percibas conscientemente. El trabajo manual preciso libera esas anclas físicas que mantienen el sistema nervioso en alerta constante.",
-      "video": "stress.mp4",
+      "video": "stress.mp4", 
       "cta": "Reserva una sesión"
     },
     {
@@ -54,6 +54,6 @@
     ]
   },
   "immersive_phrase": "El cuerpo sabe antes que la mente.\nDale un lugar donde bajar la guardia.",
-  "closing_message": "Nueve años trabajando el cuerpo que nadie más sabe cómo leer.\nTu sistema nervioso merece un interlocutor preciso.",
+  "closing_message": "Nueve años interpretando la tensión y el estrés físico.\n Tu sistema nervioso merece un anclaje en quien interprete éste mal estar.",
   "closing_cta": "Agenda tu primera sesión"
 }
