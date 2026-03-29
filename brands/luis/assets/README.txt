@@ -2,7 +2,8 @@ ASSETS — Luis Hernán González Presentation
 ==========================================
 
 Coloca los videos en esta carpeta con los siguientes nombres exactos:
-
+https://www.instagram.com/p/DWCFNEmEY0D/
+https://www.instagram.com/p/DVMPlwmDRN_/
   stress.mp4      — Video para el panel "Estrés acumulado"
   sleep.mp4       — Video para el panel "Sueño"
   recovery.mp4    — Video para el panel "Recuperación"
