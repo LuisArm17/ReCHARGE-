@@ -1,0 +1,59 @@
+{
+  "name": "Luis Hernán González",
+  "role": "Masajista Funcional",
+  "tagline": "Regulación corporal para quienes no pueden dejar de pensar.",
+  "hero_subtitle": "Trabajo con el cuerpo para interrumpir el ciclo del estrés crónico. Sin rituales. Sin promesas vacías. Solo trabajo manual preciso.",
+  "experience": 9,
+  "sessions": 100,
+  "focus": "Funcional",
+  "phone": "+56923953959",
+  "whatsapp": "https://wa.me/56923953959",
+  "instagram": "https://www.instagram.com/hernan.masajistafuncional/",
+  "kpis": [
+    { "value": 9, "label": "Años de experiencia", "suffix": "" },
+    { "value": 100, "label": "Sesiones realizadas", "suffix": "+" },
+    { "value": 94, "label": "Reportan mejor descanso", "suffix": "%" }
+  ],
+  "tabs": [
+    {
+      "id": "stress",
+      "title": "Estrés acumulado",
+      "heading": "El estrés no vive en tu mente. Vive en tu tejido.",
+      "body": "La tensión crónica se instala en capas profundas del cuerpo antes de que la percibas conscientemente. El trabajo manual preciso libera esas anclas físicas que mantienen el sistema nervioso en alerta constante.",
+      "video": "stress.mp4",
+      "cta": "Reserva una sesión"
+    },
+    {
+      "id": "sleep",
+      "title": "Sueño",
+      "heading": "El descanso real empieza antes de acostarte.",
+      "body": "Un sistema nervioso que no baja de revoluciones no puede dormir bien. Trabajamos el estado de activación corporal para que el sueño llegue de forma natural, sin forzarlo.",
+      "video": "sleep.mp4",
+      "cta": "Consulta disponibilidad"
+    },
+    {
+      "id": "recovery",
+      "title": "Recuperación",
+      "heading": "Recuperarse no es descansar. Es restaurar.",
+      "body": "La recuperación funcional implica restablecer la comunicación entre el sistema nervioso y el tejido muscular. No se trata de relajación superficial, sino de restauración profunda.",
+      "video": "recovery.mp4",
+      "cta": "Agendar ahora"
+    }
+  ],
+  "chart": {
+    "labels": ["Semana 1", "Semana 2", "Semana 3", "Semana 4", "Semana 6", "Semana 8"],
+    "datasets": [
+      {
+        "label": "Regulación percibida",
+        "data": [28, 42, 55, 63, 74, 88]
+      },
+      {
+        "label": "Calidad de sueño",
+        "data": [22, 35, 50, 60, 72, 84]
+      }
+    ]
+  },
+  "immersive_phrase": "El cuerpo sabe antes que la mente.\nDale un lugar donde bajar la guardia.",
+  "closing_message": "Nueve años trabajando el cuerpo que nadie más sabe cómo leer.\nTu sistema nervioso merece un interlocutor preciso.",
+  "closing_cta": "Agenda tu primera sesión"
+}

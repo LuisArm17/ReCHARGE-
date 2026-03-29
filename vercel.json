@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/brands/luis", "destination": "/brands/luis/index.html" },
+    { "source": "/brands/luis/", "destination": "/brands/luis/index.html" }
+  ]
+}

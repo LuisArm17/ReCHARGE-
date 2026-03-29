@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luis Hernán González — Masajista Funcional</title>
+  <meta name="description" content="Regulación corporal para quienes no pueden dejar de pensar. 9 años de experiencia en masaje funcional y gestión del estrés." />
+  <meta property="og:title" content="Luis Hernán González — Masajista Funcional" />
+  <meta property="og:description" content="Regulación corporal para quienes no pueden dejar de pensar." />
+  <meta property="og:type" content="website" />
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+
+  <!-- Shared + Brand CSS -->
+  <link rel="stylesheet" href="../../shared/css/base.css" />
+  <link rel="stylesheet" href="css/theme.css" />
+
+  <!-- CDN: GSAP + ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+
+  <!-- CDN: Chart.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.3/chart.umd.min.js" defer></script>
+</head>
+<body>
+
+  <!-- ── PROGRESS BAR ── -->
+  <div id="progress-bar"></div>
+
+  <!-- ══════════════════════════════════════════════
+       NAV
+  ══════════════════════════════════════════════ -->
+  <nav id="site-nav" aria-label="Navegación principal">
+    <div class="nav-logo">
+      Luis<span>.</span>HG
+    </div>
+    <div class="nav-links">
+      <a href="#authority">Enfoque</a>
+      <a href="#tabs-section">Servicios</a>
+      <a href="#chart-section">Resultados</a>
+      <a href="#closing">Contacto</a>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════
+       SECTION 1 — HERO
+  ══════════════════════════════════════════════ -->
+  <section id="hero" class="section">
+
+    <!-- Bilateral orbs -->
+    <div class="orb-container" id="orbs-hero" aria-hidden="true">
+      <div class="orb orb--left"></div>
+      <div class="orb orb--right"></div>
+    </div>
+
+    <div class="container" style="position:relative;z-index:2;">
+      <div class="hero-content">
+
+        <p class="hero-eyebrow" data-field="role">Masajista Funcional</p>
+
+        <h1 class="hero-title font-display">
+          El cuerpo<br>
+          <em>recuerda</em><br>
+          lo que la mente<br>ignora.
+        </h1>
+
+        <p class="hero-subtitle" data-field="hero_subtitle">
+          Trabajo con el cuerpo para interrumpir el ciclo del estrés crónico. Sin rituales. Sin promesas vacías. Solo trabajo manual preciso.
+        </p>
+
+        <div class="hero-ctas">
+          <a
+            href="https://wa.me/56923953959"
+            data-href="whatsapp"
+            class="btn btn--primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Reservar sesión
+          </a>
+          <a
+            href="https://www.instagram.com/hernan.masajistafuncional/"
+            data-href="instagram"
+            class="btn btn--ghost"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <circle cx="12" cy="12" r="3"/>
+              <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/>
+            </svg>
+            Instagram
+          </a>
+        </div>
+
+        <div class="hero-scroll-hint" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 5v14M5 12l7 7 7-7"/>
+          </svg>
+          <span>Scroll</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SECTION 2 — AUTORIDAD
+  ══════════════════════════════════════════════ -->
+  <section id="authority" class="section">
+    <div class="container">
+
+      <div class="section-header">
+        <p class="label">Enfoque</p>
+        <div class="divider"></div>
+        <h2 class="font-display text-4xl fw-300 mt-6" style="max-width:500px;line-height:1.1;">
+          Nueve años trabajando el cuerpo que nadie más sabe cómo leer.
+        </h2>
+        <p class="text-dim text-md mt-4" style="max-width:480px;line-height:1.65;">
+          El masaje funcional no es relajación decorativa. Es intervención precisa sobre el tejido que mantiene el sistema nervioso atrapado en ciclos de activación.
+        </p>
+      </div>
+
+      <div class="authority-grid">
+
+        <div class="authority-card reveal">
+          <div class="authority-num" data-field="experience">9</div>
+          <h3>Años de experiencia clínica</h3>
+          <p>
+            Formación continua en anatomía funcional, neurobiología del estrés y técnicas de regulación corporal aplicadas.
+          </p>
+        </div>
+
+        <div class="authority-card reveal">
+          <div class="authority-num">100<span style="color:var(--color-accent);font-size:0.7em">+</span></div>
+          <h3>Sesiones realizadas</h3>
+          <p>
+            Cada sesión construye un mapa corporal único. El abordaje se adapta a la historia de tensión de cada persona.
+          </p>
+        </div>
+
+        <div class="authority-card reveal">
+          <div class="authority-num" style="font-size:1.8rem;letter-spacing:-0.01em;">Funcional</div>
+          <h3>Enfoque diferencial</h3>
+          <p>
+            Trabajo desde la fisiología del estrés, no desde la estética del bienestar. El objetivo es la regulación, no la apariencia.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SECTION 3 — TABS SCROLLEABLES (PINNED)
+  ══════════════════════════════════════════════ -->
+  <section id="tabs-section" class="section">
+    <div class="container" style="height:100vh;display:flex;align-items:center;">
+      <div class="tabs-sticky-wrapper" style="width:100%;">
+
+        <!-- LEFT: tabs + panels -->
+        <div class="tabs-left">
+          <div class="section-header" style="margin-bottom:2rem;">
+            <p class="label">Áreas de trabajo</p>
+            <div class="divider"></div>
+          </div>
+
+          <!-- Tab navigation -->
+          <nav class="tabs-nav" role="tablist" aria-label="Áreas de trabajo">
+            <button class="tab-btn is-active" role="tab" aria-selected="true"  aria-controls="panel-stress">Estrés acumulado</button>
+            <button class="tab-btn"           role="tab" aria-selected="false" aria-controls="panel-sleep">Sueño</button>
+            <button class="tab-btn"           role="tab" aria-selected="false" aria-controls="panel-recovery">Recuperación</button>
+          </nav>
+
+          <!-- Tab panels -->
+          <div class="tabs-panels" style="min-height:260px;">
+
+            <div class="tab-panel is-active" id="panel-stress" data-tab-panel="stress" role="tabpanel">
+              <div class="tab-panel-inner">
+                <h3 data-tab-heading>El estrés no vive en tu mente. Vive en tu tejido.</h3>
+                <p data-tab-body>
+                  La tensión crónica se instala en capas profundas del cuerpo antes de que la percibas conscientemente. El trabajo manual preciso libera esas anclas físicas que mantienen el sistema nervioso en alerta constante.
+                </p>
+                <a
+                  href="https://wa.me/56923953959"
+                  class="btn btn--outline"
+                  style="width:fit-content;margin-top:0.5rem;"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Reserva una sesión</a>
+              </div>
+            </div>
+
+            <div class="tab-panel" id="panel-sleep" data-tab-panel="sleep" role="tabpanel">
+              <div class="tab-panel-inner">
+                <h3 data-tab-heading>El descanso real empieza antes de acostarte.</h3>
+                <p data-tab-body>
+                  Un sistema nervioso que no baja de revoluciones no puede dormir bien. Trabajamos el estado de activación corporal para que el sueño llegue de forma natural, sin forzarlo.
+                </p>
+                <a
+                  href="https://wa.me/56923953959"
+                  class="btn btn--outline"
+                  style="width:fit-content;margin-top:0.5rem;"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Consulta disponibilidad</a>
+              </div>
+            </div>
+
+            <div class="tab-panel" id="panel-recovery" data-tab-panel="recovery" role="tabpanel">
+              <div class="tab-panel-inner">
+                <h3 data-tab-heading>Recuperarse no es descansar. Es restaurar.</h3>
+                <p data-tab-body>
+                  La recuperación funcional implica restablecer la comunicación entre el sistema nervioso y el tejido muscular. No se trata de relajación superficial, sino de restauración profunda.
+                </p>
+                <a
+                  href="https://wa.me/56923953959"
+                  class="btn btn--outline"
+                  style="width:fit-content;margin-top:0.5rem;"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Agendar ahora</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- RIGHT: phone mockups stacked -->
+        <div class="tabs-right" aria-hidden="true">
+
+          <!-- Phone mockup: stress -->
+          <div class="phone-mockup" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
+            <div class="phone-screen">
+              <video data-autoplay muted loop playsinline preload="none">
+                <source src="assets/stress.mp4" type="video/mp4" />
+              </video>
+              <div class="phone-screen-fallback" style="display:none;">
+                <div class="fallback-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2"/>
+                    <path d="M12 6v6l4 2"/>
+                  </svg>
+                </div>
+                <span>Estrés acumulado</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Phone mockup: sleep -->
+          <div class="phone-mockup" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0;">
+            <div class="phone-screen">
+              <video data-autoplay muted loop playsinline preload="none">
+                <source src="assets/sleep.mp4" type="video/mp4" />
+              </video>
+              <div class="phone-screen-fallback" style="display:none;">
+                <div class="fallback-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                  </svg>
+                </div>
+                <span>Sueño</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Phone mockup: recovery -->
+          <div class="phone-mockup" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0;">
+            <div class="phone-screen">
+              <video data-autoplay muted loop playsinline preload="none">
+                <source src="assets/recovery.mp4" type="video/mp4" />
+              </video>
+              <div class="phone-screen-fallback" style="display:none;">
+                <div class="fallback-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/>
+                    <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+                  </svg>
+                </div>
+                <span>Recuperación</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SECTION 4 — KPIs
+  ══════════════════════════════════════════════ -->
+  <section id="kpis" class="section">
+    <div class="container">
+
+      <div class="section-header text-center reveal">
+        <p class="label" style="margin:0 auto 1rem;">Números que importan</p>
+        <div class="divider divider--center"></div>
+        <h2 class="font-display text-4xl fw-300 mt-6">
+          Trabajo que se mide<br>en cuerpos regulados.
+        </h2>
+      </div>
+
+      <div class="kpis-grid">
+
+        <div class="kpi-card reveal" data-kpi="0">
+          <div class="kpi-value">
+            <span data-counter="9" data-suffix="">0</span>
+          </div>
+          <p class="kpi-label">Años de experiencia</p>
+        </div>
+
+        <div class="kpi-card reveal" data-kpi="1">
+          <div class="kpi-value">
+            <span data-counter="100" data-suffix="+">0</span>
+          </div>
+          <p class="kpi-label">Sesiones realizadas</p>
+        </div>
+
+        <div class="kpi-card reveal" data-kpi="2">
+          <div class="kpi-value">
+            <span data-counter="94" data-suffix="%">0</span>
+          </div>
+          <p class="kpi-label">Reportan mejor descanso</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SECTION 5 — GRÁFICO
+  ══════════════════════════════════════════════ -->
+  <section id="chart-section" class="section">
+    <div class="container">
+      <div class="flex" style="gap:var(--space-16);align-items:center;flex-wrap:wrap;">
+
+        <div class="chart-intro reveal" style="flex:0 0 300px;min-width:240px;">
+          <p class="label">Resultados observados</p>
+          <div class="divider" style="margin:1.25rem 0;"></div>
+          <h2 class="font-display text-3xl fw-300" style="line-height:1.15;">
+            La regulación no es un estado.<br>Es un proceso.
+          </h2>
+          <p class="text-dim text-md mt-6" style="line-height:1.65;">
+            A lo largo de las sesiones, los participantes reportan mejoras progresivas y sostenidas en regulación percibida y calidad de sueño.
+          </p>
+          <p class="text-muted text-xs mt-4" style="font-family:var(--font-mono);letter-spacing:0.08em;">
+            * Basado en autoevaluación de clientes. Escala 0–100.
+          </p>
+        </div>
+
+        <div class="chart-wrapper reveal" style="flex:1;min-width:280px;">
+          <canvas id="regulacion-chart" height="300" aria-label="Gráfico de regulación y calidad de sueño" role="img"></canvas>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SECTION 6 — BLOQUE INMERSIVO (orbes bilaterales)
+  ══════════════════════════════════════════════ -->
+  <section id="immersive" class="section">
+
+    <!-- Bilateral orbs -->
+    <div class="orb-container" id="orbs-immersive" aria-hidden="true">
+      <div class="orb orb--left"></div>
+      <div class="orb orb--right"></div>
+    </div>
+
+    <div class="immersive-content" style="position:relative;z-index:2;">
+      <p class="label" style="margin:0 auto 1.5rem;">El cuerpo sabe</p>
+      <blockquote
+        class="immersive-phrase"
+        data-immersive-phrase
+        aria-label="Frase central"
+      >El cuerpo sabe antes que la mente.
+Dale un lugar donde bajar la guardia.</blockquote>
+    </div>
+
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SECTION 7 — CIERRE PINNEADO
+  ══════════════════════════════════════════════ -->
+  <section id="closing">
+
+    <div class="closing-sticky">
+
+      <!-- Estado 1: nombre / rol -->
+      <div class="closing-state closing-state-1">
+        <h2 class="closing-name font-display" data-field="name">Luis Hernán González</h2>
+        <p class="closing-role" data-field="role">Masajista Funcional</p>
+      </div>
+
+      <!-- Estado 2: mensaje final + CTAs -->
+      <div class="closing-state closing-state-2">
+        <p
+          class="closing-message font-display"
+          data-closing-message
+        >Nueve años trabajando el cuerpo que nadie más sabe cómo leer.
+Tu sistema nervioso merece un interlocutor preciso.</p>
+
+        <div class="closing-cta-group">
+          <a
+            href="https://wa.me/56923953959"
+            data-href="whatsapp"
+            class="btn btn--primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            <span data-closing-cta>Agenda tu primera sesión</span>
+          </a>
+          <a
+            href="https://www.instagram.com/hernan.masajistafuncional/"
+            data-href="instagram"
+            class="btn btn--ghost"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Instagram</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════ -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand font-display">
+          Luis Hernán González
+        </div>
+        <div class="footer-links">
+          <a href="https://wa.me/56923953959" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a href="https://www.instagram.com/hernan.masajistafuncional/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
+        <p class="footer-copy">© 2025 — Masajista Funcional · Santiago, Chile</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── MAIN SCRIPT (module) ── -->
+  <script type="module" src="js/main.js"></script>
+
+  <!-- Fallback for non-module (unlikely needed but safe) -->
+  <noscript>
+    <style>
+      .reveal { opacity: 1 !important; transform: none !important; }
+    </style>
+  </noscript>
+
+</body>
+</html>
